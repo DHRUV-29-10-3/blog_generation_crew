@@ -22,7 +22,7 @@ class BlogGenerationCrew():
         return Agent(
             config=self.agents_config["team_leader"],
             verbose=True,
-            allow_delegation=True
+            allow_delegation=True # it helps in collabration and delegation of tasks among agents
         )
 
     @agent
